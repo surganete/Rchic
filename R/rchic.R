@@ -30,7 +30,7 @@
 
 
 rchic <-function() {
-  
+  print("hola")
   require(tcltk) || stop("tcltk support is absent")
   require(stringr) || stop("stringr support is absent")
   require(tcltk2) || stop("tcltk2 support is absent")
